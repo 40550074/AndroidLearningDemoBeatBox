@@ -12,5 +12,6 @@
         android:layout_width="match_parent"
         android:layout_height="120dp"
         tools:text="Sound name"
-        android:text="@{viewModel.title}"/>
+        android:text="@{viewModel.title}"
+        android:onClick="@{() -> viewModel.onButtonClicked()}"/>
 </layout>
