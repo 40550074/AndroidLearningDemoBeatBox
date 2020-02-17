@@ -12,6 +12,8 @@
         android:layout_width="match_parent"
         android:layout_height="120dp"
         tools:text="Sound name"
+        android:id="@+id/list_item_sound_button"
+        android:background="?attr/colorAccent"
         android:text="@{viewModel.title}"
         android:onClick="@{() -> viewModel.onButtonClicked()}"/>
 </layout>
